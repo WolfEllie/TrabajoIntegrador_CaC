@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex: auto;
+}
+/*Imagen de fondo*/
+.imgfondo{
+    width: 100%;
+    height: 600px;
+    background: #000000; 
+background: -webkit-linear-gradient(to right, #434343, #000000);  /*Hecho con uigradients.com*/
+background: linear-gradient(to right, #43434334, #000000c7),url(img/img2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+/*Barra de navegación*/
+.navbar-nav{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Contenedor texto principal*/
+.contenedor{
+    margin-top: -300px;
+    margin-left: 650px;
+    position: absolute;
+}
+.cont-title{
+    color: white;
+    text-align: right;
+}
+.cont-text{
+    color: white;
+    text-align: right;
+    
+}
+/*Botones texto principal*/
+.botones{
+    text-align: right;
+}
+.titulo{
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo h6{
+    font-weight:400;
+}
+.contenedor-cuadro{
+    margin-top: 20px;
+    display: flex;
+}
+.contenedor-cuadro img{
+    width: 50vw;
+    margin: 0;
+}
+.cuadro-texto{
+    background-color: #353A40;
+    padding: 10px;
+}
+.contenedor-cuadro h2{
+    color: white;
+}
+.contenedor-cuadro p{
+    color: white;
+}
+/*Titulo derecho*/
+
+.titulo-dos{
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo-dos h6{
+    font-weight:400;
+}
+/*FORMULARIO*/
+.tf{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    padding: 10px;
+}
+.formulario input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10%;
+}
